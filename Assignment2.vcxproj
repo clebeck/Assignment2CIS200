@@ -130,7 +130,6 @@
     <ClCompile Include="PowergGrid.cpp" />
     <ClCompile Include="Reports.cpp" />
     <ClCompile Include="ServiceArea.cpp" />
-    <ClCompile Include="Transline.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GridDef.h" />
