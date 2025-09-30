@@ -89,4 +89,4 @@ public:
     void generateUsageReport();                     // Generates a power report to the console
 
 };
-#pragma once
+

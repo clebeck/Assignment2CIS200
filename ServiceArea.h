@@ -38,4 +38,4 @@ public:
 
     // Print and debug
     void printAll() const;   // Prints information for debugging
-};#pragma once
+};
