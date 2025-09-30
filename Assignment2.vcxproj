@@ -123,7 +123,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DistPower.cpp" />
+    <ClCompile Include="InitalizeGrid.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Plant.cpp" />
+    <ClCompile Include="PowergGrid.cpp" />
+    <ClCompile Include="Reports.cpp" />
+    <ClCompile Include="ServiceArea.cpp" />
+    <ClCompile Include="Transline.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GridDef.h" />
+    <ClInclude Include="Plant.h" />
+    <ClInclude Include="PowerGrid.h" />
+    <ClInclude Include="ServiceArea.h" />
+    <ClInclude Include="Transline.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
