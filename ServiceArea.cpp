@@ -18,21 +18,17 @@ ServiceArea::ServiceArea(const string& name, double requiredCapacity, double pri
 }
 
 
-//
+
 // addCapacity() -- Adds capacity to the service area - 
-// Signifies the grid is commiting an amount of power to this location
-//
 void ServiceArea::addCapacity(double amount) {
-
-    // Update the amount of power supplied and the status 
     powerReceived += amount;
-
+    if (powerReceived > powerRequired) {
+        powerReceived = powerRequired;
+    }
 }
 
 
-//
-// Setters and Getters
-//
+// setters & getters 
 string ServiceArea::getAreaName() const { return areaName; }
 double ServiceArea::getPowerRequired() const { return powerRequired; }
 double ServiceArea::getPowerProvided() const { return powerReceived; }

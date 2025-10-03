@@ -1,18 +1,4 @@
 #pragma once
-// File: Plant.h
-//
-// Contains class definition for the power Plant class
-//
-// Plants generate the electricity and supply it to demand location 
-// using transmission lines.
-//
-// Plants have varying characteriscs such as Fuel Type, Capacity, Age, 
-// cost to produce electricty, hours of operation, and environmental 
-// impact.
-//
-// Plants understand their total capacity and track how much power
-// has already been committed and the amount available to provide.
-// 
 
 #include <string>
 #include <iostream>
@@ -41,7 +27,8 @@ protected:
 public:
     // Constructors & Destructors
     PowerPlant(const string& name, const string& type, const double cost, const double maxCapacity);
-    //virtual ~Plant();                 // Virtual destructor
+    virtual ~PowerPlant() = default;
+
 
     // Mutators
     void reduceCapacity(double amount);         // Reduce the available capacity for the plant when it is allocated to a location

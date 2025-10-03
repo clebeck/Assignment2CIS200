@@ -27,4 +27,4 @@ const std::string PT_GEO_THERMAL = "GeoTherm";
 const std::string FILE_HEADER_DELIMTER = "&*****&";
 
 // Constansts used by Transmission line
-const int	MAX_LINE_CONNECTIONS = 4;#pragma once
+const int	MAX_LINE_CONNECTIONS = 4;

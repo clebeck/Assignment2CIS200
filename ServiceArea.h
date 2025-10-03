@@ -1,15 +1,4 @@
-#pragma once
-// File: ServiceArea.h
-//
-// Contains class definition for the Service Area class on the power grid
-//
-// erviceArea objects identify a location and the amount of power (megawatts) 
-// that the location requires and has has been provided.  
-// 
-// They track how much power is currently being supplied and the amount 
-// needed to fully to meet their power requirements.  They can also 
-// quickly report on the status of if their requiermends are satisfied.
-// 
+#pragma once 
 #include <string>
 using namespace std;
 
